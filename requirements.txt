@@ -1,9 +1,9 @@
 
-streamlit>=1.28.0
-pandas>=2.0.0
-plotly>=5.15.0
-numpy>=1.24.0
-openpyxl>=3.1.0
-PyMuPDF>=1.23.0
-pikepdf>=8.0.0
-requests>=2.31.0
+streamlit
+pandas
+plotly
+numpy
+openpyxl
+PyMuPDF
+pikepdf
+requests
