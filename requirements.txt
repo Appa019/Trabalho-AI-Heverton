@@ -1,9 +1,0 @@
-
-streamlit
-pandas
-plotly
-numpy
-openpyxl
-PyMuPDF
-pikepdf
-requests
