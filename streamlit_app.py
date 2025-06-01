@@ -396,7 +396,7 @@ def result_stage():
                 {winner} ama mais {loser}! 
             </h1>
             <p style="font-size: 1.2rem; color: #880e4f; margin-top: 1rem;">
-                Nossa análise quântica multidimensional revelou este resultado com 99.97% de precisão!
+                Nossa análise quântica multidimensional revelou este resultado com 100% de precisão!
             </p>
         </div>
         ''', unsafe_allow_html=True)
