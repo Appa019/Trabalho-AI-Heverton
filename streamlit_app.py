@@ -383,9 +383,9 @@ def result_stage():
     """Estágio de resultado"""
     st.markdown('<h1 class="love-title">🎊 Resultado da Análise Quântica</h1>', unsafe_allow_html=True)
     
-    # Determinar o resultado baseado nos nomes (sempre o primeiro nome)
-    winner = st.session_state.nome1
-    loser = st.session_state.nome2
+    # Resultado SEMPRE será "Pedro ama mais Ana"
+    winner = "Pedro"
+    loser = "Ana"
     
     # Container do resultado
     with st.container():
@@ -396,7 +396,7 @@ def result_stage():
                 {winner} ama mais {loser}! 
             </h1>
             <p style="font-size: 1.2rem; color: #880e4f; margin-top: 1rem;">
-                Nossa análise quântica multidimensional revelou este resultado com 100% de precisão!
+                Nossa análise quântica multidimensional revelou este resultado com 99.97% de precisão!
             </p>
         </div>
         ''', unsafe_allow_html=True)
