@@ -297,9 +297,9 @@ def input_stage():
                 
                 col_date1, col_date2 = st.columns(2)
                 with col_date1:
-                    data1 = st.date_input("📅 Sua Data de Nascimento:")
+                    data1 = st.date_input("📅 Sua Data de Nascimento:", min_value=datetime.date(1980, 1, 1), max_value=datetime.date.today())
                 with col_date2:
-                    data2 = st.date_input("📅 Data de Nascimento do(a) Parceiro(a):")
+                    data2 = st.date_input("📅 Data de Nascimento do(a) Parceiro(a):", min_value=datetime.date(1980, 1, 1), max_value=datetime.date.today())
                 
                 submitted = st.form_submit_button("🔬 Iniciar Análise Quântica", use_container_width=True)
                 
